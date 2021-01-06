@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@PaoloNVB</title>
+    <link rel="icon" href="/img/favicon.ico" type="image/png"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/registro.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="logo_header">Siempre al cuidado de la Mujer</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/html/servicios.html">Servicios</a></li>
+                <li><a href="/html/comunidad.html">Comunidad</a></li>
+                <li><a href="/html/productos.html">Productos</a></li>
+                <li><a href="/html/contacto.html">Contacto</a></li>
+                <li><a href="/html/registrarse.html">Registrarse</a></li>          
+            </ul>
+        </div> 
+    </header>
+    <form  id="form">
+        <div >
+            <h1>Registro</h1>
+            <div class="grupo">
+                <input type="text" name="" id="name" required><!--<span class="barra"></span>-->
+                <label for="">Nombre</label>
+            </div>
+            <div class="grupo">
+                <input type="email" name="" id="email" required><!--<span class="barra"></span>-->
+                <label for="">Email</label>
+            </div>
+            <div class="grupo">
+                <input type="password" name="" id="password" required>
+                <label for="">Password</label>
+            </div>
+            <button class="button" type="submit" onclick="registar()">Suscribirte</button>
+        </div>
+    </form>
+    <script src="/js/registrarse.js"></script>
+</body>
+</html>
